@@ -1,0 +1,81 @@
+/* Poner un colo de fondo en toda la página */
+body {
+    background-color: lightgrey;
+}
+
+h1+div{
+    background-color: lightskyblue;
+}
+
+div p{
+    background-color: tomato;
+}
+
+
+#opacidad div {
+    text-align: center;
+    padding: 25px;
+    background-color: green;
+}
+
+#opacidad div+div{
+    opacity: 0.7;
+}
+
+#opacidad div+div+div{
+    opacity: 0.35;
+}
+
+#opacidad div + div+div+div{
+    opacity: 0.1;
+}
+
+
+/*rgba*/
+#opacidad-rgb{
+    text-align: center;
+    padding: 25px;
+    background-color: rgba( 255, 180, 250, 0.5);
+}
+
+/*Imagen de fondo*/
+#imagen{
+    height: 200px;
+    background-image: url(https://lucasylola.es/blog/wp-content/uploads/2019/05/bilchon-maltes-joven.jpeg);
+
+    
+/*parimetros de la imagen*/
+background-position:center;
+background-size: contain;
+background-repeat: no-repeat;
+}
+
+#imagen-pegada{
+
+    height: 500px;
+    background-image:url(https://tse2.mm.bing.net/th?id=OIP.JnZfiw6KCGGC1QYZZcKe8wHaFj&pid=Api&P=0&h=180);
+
+   background-position: center;
+    background-size: cover; 
+    background-attachment: fixed;
+}
+
+#imagen{
+    height: 200px;
+    background-image: url(https://lucasylola.es/blog/wp-content/uploads/2019/05/bilchon-maltes-joven.jpeg);
+
+    background-position: center;
+    background-size: cover; 
+    background-attachment: fixed;
+
+}
+
+#imagen 3{
+    height: 1000px;
+    background-image: url(https://3.bp.blogspot.com/-lPMaZPIUuSE/WsmQN6To5BI/AAAAAAAAMyo/6fg2Pz2WN7khSYdxjVTmfcupEcfW3JjaACK4BGAYYCw/s1600/horses-1414889_1920.jpg);
+
+    
+}
+    
+
+    

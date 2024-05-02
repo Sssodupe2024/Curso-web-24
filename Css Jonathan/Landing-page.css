@@ -1,0 +1,76 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: 0px;
+}
+
+
+
+#showcase{
+    background-image:url(https://2.bp.blogspot.com/-N1CaAO_b0IY/UOwgGEF12NI/AAAAAAAAxao/nl3zGE9CmpA/s1600/Paradiciacas-Cabanas-de-playa_Fondos-de-Pantalla-de-Playas-HD.jpg);
+    background-position: center; 
+    background-size: cover;
+    background-color: white;
+
+    height: 100vh;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+   
+}
+  
+
+#showcase h1{
+padding: 100px;
+}
+
+.button:hover{
+    color: rgb(248, 152, 7);
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    color: blue;
+}
+
+#section-a{
+    width: 100%;
+    background-color: lightblue;
+    padding: 20px;
+    box-sizing: border-box;
+
+}
+
+
+#section-b{
+    width: 100%;
+    background-color: white;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+
+#section-c{
+    display: flex;
+}
+
+
+
+#section-c :first-child{
+background-color: lightblue;
+padding: 20px;
+}
+
+#section-c :nth-child(2){
+    background-color: white;
+    padding: 20px;
+    }
+
+
+#section-c :last-child{
+        background-color:lightblue;
+        box-sizing: content-box;
+        padding: 20px;
+        }

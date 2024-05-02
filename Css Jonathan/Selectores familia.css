@@ -1,0 +1,21 @@
+div, div * {
+    border: 1px solid black;
+}
+
+div p{
+    background-color: limegreen
+    min: height 100px;
+}
+
+div h5{
+    background-color: orange;
+    height: 50px;
+}
+
+div span{
+    background-color: dodgerblue;
+    height: 20px;
+    display: block;
+}
+
+

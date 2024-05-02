@@ -1,0 +1,28 @@
+div{
+    border: 1px solid dodgerblue;
+
+}
+
+#ejemplo1 {
+    margin: 70px;
+
+    
+}
+
+#ejemplo2{
+    margin: 40px 50px;
+}
+
+#ejemplo3{
+    margin: 25px 50px 75px;
+}
+
+#ejemplo4{
+    margin: 35px 50px 75px 75pxz;
+}
+
+
+#auto{
+    width: 200px;
+    margin: 0 auto;
+}

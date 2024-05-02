@@ -1,0 +1,62 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#uno {
+    background-color: rgb(93, 138, 138);
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#uno,
+#tres,
+ul {
+    list-style: none;
+    color: white;
+
+
+}
+
+#uno>a {
+    border: solid black 4px;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+}
+
+#uno ul {
+    border: solid black 4px;
+    display: flex;
+    padding: 20px;
+}
+
+#dos {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin: 30px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+#dos p {
+    padding: 5px;
+    margin: 10px 0;
+
+}
+
+#dos div{
+    width: 200px;
+
+}
+
+#dos p{
+
+    margin-bottom: 20px;
+
+}

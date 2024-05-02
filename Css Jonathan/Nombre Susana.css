@@ -1,0 +1,23 @@
+#site-main > div{
+    display: flex;
+    border: 4px solid red;
+    /* height: 50px; */
+    width: 200px;
+    padding: 10px;
+}
+
+#site-main > div div {
+    background-color: dodgerblue;
+    width: 45px;
+    height: 45px;
+    border: 2px solid black;
+}
+
+.tercero div {
+    border: 2px solid black;
+    height: 45px;
+    width: 45px;
+    display: flex;
+  justify-content: flex-end;
+}
+

@@ -1,0 +1,53 @@
+
+#abuelo {
+    /* Cetrar horizontalmente */
+    margin: 0 auto;
+    background-color: gold;
+}
+
+
+#padre {
+    background-color: lightgreen;
+    border: 5px solid dodgerblue;
+}
+
+#hijo {
+    text-align: center;
+    background-color: white;
+}
+
+#abuelo,
+#padre,
+#hijo {
+    padding: 25px;
+
+}
+
+#ejemplo1 {
+
+    border: 3px solid dodgerblue;
+    background-color: lightblue;
+    padding: 25px 50px 75px 100px;
+    padding-top: 25px;
+    padding-right: 50px;
+    padding-bottom: 75px;
+    padding-left: 100px;
+}
+
+#ejemplo1 span {
+    background-color: white;
+}
+
+
+#ejemplo2{
+    width: 300px;
+    background-color: lightblue;
+    border: 3px solid dodgerblue;
+    margin:0 auto;
+    padding: 25px;
+}
+
+
+footer{
+    height: 400px;
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ejercicio Hover con Opacidad e Imágenes</title>
+  <link rel="stylesheets" href="Opacity.css">
+  <style>
+
+
+* {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+
+#site-header, #site-footer {
+  background-color: #f0f0f0;
+  padding: 20px;
+  text-align: center;
+}
+
+
+#site-main {
+    padding: 25px;
+    text-align: center;
+}
+
+
+#site-main ul figure {
+  margin-bottom: 20px;
+}
+
+
+#site-main ul li img {
+  width: 100%;
+}
+
+
+#site-main ul figure figcaption {
+  margin-top: 5px;
+  font-weight: bold;
+}
+
+
+/* Estilos para el hover */
+#site-main ul figure img:hover{
+  opacity: 0.7;
+}
+
+
+@media (min-width: 1024px) {
+
+
+    #site-main ul li{
+    width: 30%;
+    }
+
+
+  #site-main ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+
+  #site-main ul 

@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+#site-main {
+background-color: #73dd78;
+padding: 20px;
+text-align: center;
+color: rgb(12, 18, 13);
+}
+
+
+#site-main h1{
+    margin-bottom: 15px;
+}
+
+
+#site-main nav a {
+    color: white;
+    padding: 15px;
+    display: block;
+}
+
+
+/* Estilos para el hover */
+#site-main nav a:hover {
+background-color: #b47a7a;
+color: #0d4b75;
+}
+
+
+@media (min-width: 1024px) {
+
+#site-main{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#site-main nav ul{
+    display: flex;
+}
+
+}

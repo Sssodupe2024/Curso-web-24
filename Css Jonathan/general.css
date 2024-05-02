@@ -1,0 +1,36 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+table{
+    border: 1px solid rgb(80, 80, 120);
+    color: rgb(80, 80, 120);
+    width:100%;
+    border-collapse: collapse;
+}
+
+table tr{
+    border-top: 1px solid rgb(80, 80, 120);
+}
+
+
+code{
+    background-color: rgb(60, 60, 60);
+    color: aqua;
+}
+
+.recuadro{
+    border: 3px solid black;
+    margin: 0 auto;
+    padding: 0 5px;
+}
+
+#g-font{
+    font-family: "Roboto Static"; 
+}
+
+
+
+footer{
+    height: 150px;
+}

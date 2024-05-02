@@ -1,0 +1,26 @@
+.recuadro{
+    background-color: lightblue;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    margin: 50px auto;
+}
+
+.recuadro :first-child{
+    background-color: orange;
+    width: 80px;
+    height: 100px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.recuadro :nth-child(2){
+    background-color: blue;
+    width: 80px;
+    height: 100px;
+    position: absolute;
+    top: 180px;
+    left: 200px;
+
+}

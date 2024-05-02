@@ -1,0 +1,33 @@
+
+
+menu, menu div{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    
+
+
+menu {
+    display: flex;
+    justify-content: space-between;
+    background-color: #333;
+}
+
+
+menu a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 14px 18px;
+}
+
+
+menu a.home{
+    background-color: #666;
+}
+
+
+
+menu a.home:hover{
+    background-color: ;
+}
