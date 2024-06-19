@@ -1,0 +1,116 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+
+body{
+    background-color: rgb (39, 37, 37);
+    padding: 0 50px;
+}
+
+#site-header{
+    background-color: aliceblue;
+}
+
+#site-header ul{
+    display: flex;
+    padding: 20px;
+}
+
+#site-header ul a{
+    display: inline-block;
+    color: black;
+    font-weight: bold;
+    padding: 20px;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: rgb(39, 37, 37);
+    padding: 0 50px;
+}
+
+#site-header {
+    background-color: aliceblue;
+}
+
+#site-header ul {
+    display: flex;
+    padding: 20px;
+}
+
+#site-header ul a {
+    display: inline-block;
+    color: black;
+    font-weight: bold;
+    padding: 20px;
+}
+
+#site-main {
+    background-color: white;
+    width: 70%;
+}
+
+img {
+    width: 100%;
+}
+
+#site-main section {
+    padding: 30px 20px;
+}
+
+#site-main section p,
+h1 {
+    margin-bottom: 20px;
+    text-align: justify;
+    line-height: 1.5;
+
+}
+
+aside {
+    background-color: turquoise;
+    padding: 50px;
+    height: 150px;
+    width: calc(30% - 100px);
+
+}
+
+aside h4 {
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+
+}
+
+aside ul li {
+    border-bottom: 2px solid black;
+    margin-top: 20px;
+}
+
+footer {
+    background-color: rgb(255, 0, 119);
+    color: white;
+    text-align: center;
+    width: 70%;
+    padding: 50px;
+    width: calc(70% - 100px);
+    font-weight: bold;
+
+}
+
+.clase-dos {
+    display: flex;
+    flex-wrap: wrap;
+}

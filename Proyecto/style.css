@@ -1,0 +1,415 @@
+{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: "Roboto";
+    list-style: none;
+    letter-spacing: 2px;
+}
+
+.fa-caret-down {
+    color: chocolate;
+}
+
+body #index-main h1 {
+    padding: 20px;
+    margin: 20px;
+}
+
+a {
+    color: black;
+
+}
+
+
+#site-header nav ul {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    list-style: none;
+    margin: 10px;
+    padding-top: 20px;
+}
+
+
+
+#site-header nav ul li {
+    margin: 5px;
+    padding: 5px;
+    position: relative;
+
+}
+
+
+
+
+#site-header nav ul li>i {
+    position: absolute;
+    bottom: 150%;
+    opacity: 0;
+    left: 45%;
+    color: chocolate;
+
+}
+
+
+
+#site-header nav ul li a {
+    color: rgb(118, 118, 118);
+    text-decoration: none;
+
+}
+
+.pajaro a img {
+    width: 75px;
+    height: 75px;
+    position: absolute;
+    top: 15px;
+    left: 50px;
+    align-items: center;
+}
+
+
+#index-main h1 span {
+    background-color: rgb(218, 113, 39);
+
+}
+
+#index-main span:hover {
+    background-color: white;
+    transition: 0.5s;
+}
+
+#index-main video {
+    width: 100%;
+
+}
+
+
+#site-header nav ul li>a:hover+i {
+    bottom: 100%;
+    opacity: 1;
+    transition: opacity 1s, bottom 1s;
+}
+
+
+
+#dos-videos {
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#dos-videos article {
+    width: 50%;
+}
+
+
+#dos-videos div p:hover {
+    color: chocolate;
+}
+
+img,
+video {
+    width: 100%;
+}
+
+#fotos {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#fotos article {
+    width: 50%;
+}
+
+
+
+#index-main article i {
+    margin-left: 5px;
+    color: chocolate;
+    translate: 0px;
+    opacity: 1;
+}
+
+#index-main article p:hover {
+    color: chocolate;
+    transition: color 0.8s;
+}
+
+
+#index-main article p:hover i {
+    transition: translate 1s, opacity 1s;
+    translate: 40px;
+    opacity: 0;
+}
+
+
+
+
+
+
+#site-header nav ul li ul {
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    display: none;
+    right: 0;
+}
+
+
+#site-header nav>ul li:last-child:hover ul {
+    display: block;
+}
+
+
+
+.iavideojuegos,
+.tecno,
+.burbujas2,
+.pato,
+.arbol {
+    margin: 20px 0px;
+}
+
+
+
+.proyectos-realizados {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+.proyectos-realizados a {
+    display: inline-block;
+    text-align: center;
+    border: solid black 2px;
+    padding: 10px;
+
+}
+
+.proyectos-realizados a:hover {
+    transition: 1s;
+    background-color: black;
+    color: chocolate;
+
+}
+
+.nuestros {
+    text-align: center;
+
+}
+
+.nuestros span {
+    background-color: chocolate;
+
+}
+
+#site-footer {
+    text-align: center;
+
+}
+
+#site-footer div {
+    padding-top: 10px;
+    box-sizing: border-box;
+    background-color: rgb(61, 60, 60);
+    height: 200px;
+
+}
+
+#site-footer div a {
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    padding: 10px;
+    border-bottom: 2px solid white;
+
+}
+
+
+#site-footer div i:hover {
+    color: chocolate;
+}
+
+/* SOBRE NOSOTROS */
+
+
+
+.h1nosotros {
+    color: chocolate;
+    font-size: 3rem;
+    margin-bottom: 50px;
+    margin-left: 41px;
+
+}
+
+
+#sobre-main .seccion1 .div1nosotros {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+
+
+}
+
+#sobre-main .seccion1 .div1nosotros p {
+    color: white;
+    width: 45%;
+    line-height: 1rem;
+    letter-spacing: 3px;
+    font-size: 16px;
+}
+
+.div1nosotros p:first-child {
+    border-bottom: 2px solid chocolate;
+}
+
+
+#sobre-main .seccion1 {
+    background-color: rgb(59, 55, 55);
+    position: relative;
+    padding: 5%;
+}
+
+/* NUESTRA HISTORIA */
+
+#sobre-main section:nth-child(2) h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    margin-left: 40px;
+
+
+}
+
+#sobre-main section:nth-child(2) {
+    padding: 5%;
+
+}
+
+
+#sobre-main section:nth-child(2) .historia1 {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0%;
+
+
+}
+
+#sobre-main section:nth-child(2) .historia1 p {
+    padding: 20px;
+    margin: 20px;
+    width: 45%;
+    line-height: 1rem;
+    letter-spacing: 3px;
+    font-size: 16px;
+}
+
+.fotoempresa {
+    padding: 0 5% 5% 5%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* NUESTROS VALORES */
+
+
+#sobre-main section:last-child h2 {
+    font-size: 1.8rem;
+    margin-left: 20px;
+}
+
+#sobre-main .valores {
+    display: flex;
+    margin: 20px;
+}
+
+#sobre-main .valores div {
+    margin: 10px;
+    width: 22%;
+    justify-content: space-between;
+}
+
+#sobre-main .valores i {
+    color: chocolate;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+#site-aside {
+    background-color: black;
+    color: white;
+    opacity: 0.75;
+    text-align: center;
+    padding: 20px;
+}
+
+#proyecto-main {
+    margin-top: 30px;
+}
+
+.seccionproyectos h1 {
+    color: chocolate;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 3rem;
+}
+
+.seccionproyectos .div1proyectos {
+    width: 100%;
+    height: 300px;
+    background-color: rgb(65, 61, 61);
+    padding: 50px;
+    margin-bottom: 50px;
+
+}
+
+.multimedia {
+    padding: 5%;
+}
+
+.seccionproyectos .div1proyectos p {
+    color: white;
+    border-bottom: 2px solid chocolate;
+    width: 20%;
+
+
+}
+
+/* flechas derecha */
+/* obligatorio translate 0 y opacity 1 */
+#proyecto-main article i {
+    margin-left: 5px;
+    color: chocolate;
+    translate: 0px;
+    opacity: 1;
+}
+
+#proyecto-main article p:hover {
+    color: chocolate;
+    transition: color 0.8s;
+}
+
+/* con este selector le decimos que cuando haga algo en el hover pasará algo con la I y lo va a mover 40px a la derecha */
+#proyecto-main article p:hover i {
+    transition: translate 1s, opacity 1s;
+    translate: 40px;
+    opacity: 0;
+}
+
+
+
+
+/*Proyectos*/
+
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Roboto";
+}
+
+
+body
