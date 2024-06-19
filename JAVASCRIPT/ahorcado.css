@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: rgb(21, 183, 237);
+}
+
+#buttons button {
+    margin: 5px;
+    padding: 10px;
+    font-size: 20px;
+    color: black;
+    background-color: white;
+    text-shadow: 2px 2px 4px lightblue;
+    box-shadow: 2px 2px 4px black;
+}
+
+
+
+#game-container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#restart-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}

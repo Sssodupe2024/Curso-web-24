@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos en JS</title>
+    <style>
+        .div-hover {
+            width: 100px;
+            height: 100px;
+            margin: 10px;
+            display: inline-block;
+        }
+        #div1 { background-color: red; }
+        #div2 { background-color: green; }
+        #div3 { background-color: blue; }
+        #div4 { background-color: yellow; }
+        #image { width: 300px; }
+    </style>
+</head>
+<body>
+    <button id="alertButton">Haz clic aquí</button>
+    <div id="divHover" class="div-hover" style="background-color: lightgray;"></div>
+    <div id="div1" class="div-hover"></div>
+    <div id="div2" class="div-hover"></div>
+    <div id="div3" class="div-hover"></div>
+    <div id="div4" class="div-hover"></div>
+    <img id="image" src="image1.jpg" alt="Imagen original">
+    
+    <script>
+        // 1. Alerta al hacer clic en el botón
+        document.getElementById('alertButton').onclick = function() {
+            alert('¡Hiciste click en el botón!');
+        };
+
+        // 2. Cambiar color de fondo del div al pasar el ratón por encima
+        const divHover = document.getElementById('divHover');
+        divHover.onmouseover = function() {
+            divHover.style.backgroundColor = 'pink';
+        };
+
+        // 3. Cambiar color de fondo del div al salir el ratón
+        divHover.onmouseout = function() {
+            divHover.style.backgroundColor = 'lightgray';
+        };
+
+        // 4. Cambiar color de fondo del body al pasar el ratón sobre uno de los 4 divs
+        const divs = document.querySelectorAll('.div-hover');
+        divs.forEach(div => {
+            div.onmouseover = function() {
+                document.body.style.backgroundColor = div.style.backgroundColor;
+            };
+        });
+
+        // 5. Cambiar imagen al pasar el ratón y volver a la original al quitar el ratón
+        const image = document.getElementById('image');
+        image.onmouseover = function() {
+            image.src = 'image2.jpg';
+        };
+        image.onmouseout = function() {
+            image.src = 'image1.jpg';
+        };
+    </script>
+</body>
+</html>

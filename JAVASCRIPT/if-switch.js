@@ -11,7 +11,8 @@ if (edad >= 63)  {
 
 
 //Podemos encadenar tantos bloques y condiciones cómo queramos:
-let hora = 9;
+let hora = new Date().getHours();
+console.log(hora);
 let saludo = "";
 
 if (hora <= 12) {
@@ -33,5 +34,48 @@ console.log(saludo);
 // domingo = 0; lunes = 1, martes = 2...
 
 let dia = new Date().getDay();
+let diaSemana;
 console.log(dia)
 
+switch (dia) {
+case 0:
+    diaSemana= "domingo";
+    break;
+case 1:
+    diaSemana= "lunes";
+    break;
+ case 2:
+    diaSemana= "martes";
+    break;
+ case 3:
+    diaSemana= "miércoles";
+    break;
+case 4:
+    diaSemana= "jueves";
+    break;
+case 5:
+    diaSemana= "viernes";
+    break;
+case 6:
+    diaSemana= "sábado";
+    break;
+
+    default:
+        console.log("algo ha ido mal");
+    break;
+}
+console.log(saludo + ", hoy es "  +  diaSemana)
+
+
+// comprobar si es fin de semana 
+switch (dia) {
+    default:
+        mensaje = "Oh no, aún falta para el finde.."
+        break;
+    case 0:
+    case 6:
+mensaje = "Yupi! Estamos en el finde!!"
+    break;
+
+}
+console.log(mensaje)
